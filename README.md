@@ -1,12 +1,6 @@
-# React + Vite
+Situation：如果你有几种食材，但是不知道做什么菜？ 这个app可以根据你输入的食材，帮助你推荐食谱。
+Task：用户输入和ai生成食谱
+Action：需要用户输入食材，展示食材；接入deepseek的api，生成食谱。
+Result：根据用户输入的食材，生成食谱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+欢迎试用和提出建议~
