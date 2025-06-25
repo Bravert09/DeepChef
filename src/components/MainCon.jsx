@@ -15,10 +15,12 @@ export default function MainCon() {
   }
 
   const [recipe, setRecipe] = React.useState("");
-  
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
+
   async function getRecipe() {
     try {
-      const res = await fetch("http://localhost:5000/recipe", {
+      const res = await fetch(`${API_BASE_URL}/recipe`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
